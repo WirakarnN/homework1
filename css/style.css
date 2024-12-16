@@ -1,0 +1,14 @@
+/* Reset CSS เพื่อความเข้ากันได้กับเบราว์เซอร์ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* พื้นหลังและฟอนต์ทั่วไป */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f0fe;
+    color: #333;
+    line-height: 1.6;
+}
