@@ -56,3 +56,43 @@ header {
 .hero p {
     font-size: 1.5em;
 }
+
+/* ส่วนแนะนำสถานที่ (Highlights) */
+.highlights {
+    padding: 2em;
+    text-align: center;
+}
+
+.highlights h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+/* การ์ดสถานที่ */
+.places {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.place {
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.place img,
+.place-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.place h3,
+.place-detail h2 {
+    margin-top: 0.5em;
+}
