@@ -12,3 +12,30 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
+/* เฮดเดอร์ */
+header {
+    background: #26c6da;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* เมนูนำทาง */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu li a:hover,
+.menu li a.active {
+    text-decoration: underline;
+}
