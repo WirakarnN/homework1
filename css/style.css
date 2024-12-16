@@ -155,3 +155,51 @@ footer {
     color: white;
     margin-top: 3em;
 }
+
+/* ปรับส่วนแสดงสถานที่ */
+.places-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.places-list h1 {
+    font-size: 2.5em;
+    color: #005f73;
+    margin-bottom: 1em;
+}
+
+/* รายละเอียดสถานที่ */
+.place-detail {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.place-detail:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.place-detail h2 {
+    color: #3a86ff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.place-detail p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.place-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
