@@ -39,3 +39,20 @@ header {
 .menu li a.active {
     text-decoration: underline;
 }
+
+/* ส่วนแนะนำ (Hero Section) */
+.hero {
+    background: url('../images/chonburi.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
