@@ -73,7 +73,7 @@ header {
     flex-wrap: wrap;
 }
 
-.place, .place-detail {
+.place {
     background: white;
     padding: 1em;
     border-radius: 8px;
